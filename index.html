@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="my_styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/favicon_developer.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon_developer.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Deepanshu | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>DEEPANSHU</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/my photo - Copy-photoaidcom-cropped.jpg"
+        alt="Deepanshu"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hey! I am Deepanshu 
+        </p>
+        <p>
+          ECE student @ IIT Roorkee | Web Developer | Competitive Programmer
+        </p>
+      </div>
+    </section>
+<br><br>
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+
+Hi there! I'm Deepanshu, currently pursuing a BTech in Electronics and Communication Engineering (ECE) at the prestigious Indian Institute of Technology Roorkee. Originally from Faridabad, Haryana, I'm passionate about both technology and competition.
+<br>
+When I'm not tackling complex engineering concepts, I can be found flexing my coding muscles as a web developer. Building and creating things on the web fuels my creativity. Additionally, I thrive in the challenge of competitive programming, constantly pushing myself to develop efficient solutions to problems.
+
+This combination of ECE expertise, web development skills, and competitive programming spirit allows me to approach problems from a unique and multifaceted perspective. I'm always eager to learn new things and collaborate with others who share my enthusiasm for technology.
+      </p>
+      
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+          src="assets/icons/html5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/js.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/programming.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/c-.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/python-seeklogo.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/Least-Recently-Used-LRU-Algorithm.webp"
+            alt="LRU Policy"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Implementing LRU</h3>
+          <p class="project-details">
+            Implemented LRU and optimal replacement policies in cache, enhancing cache performance and minimizing cache misses. 
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/object_detection_1.webp"
+            alt="Object Detection Technique"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Multi Target Detection</h3>
+          <p class="project-details">
+            This project aims to develop a real-time multi-target detection system using the powerful YOLOv8 deep learning model.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/brent-kung-adder1-l.jpg"
+            alt="Brent Kung Adder"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Brent Kung Adder</h3>
+          <p class="project-details">
+            Created a C++ code to take an input number N(number of digits) and generate the Verilog code for an N by N bit Brent-Kung Adder.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2024</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://www.linkedin.com/in/deepanshu-ece-456239259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+          >Deepanshu</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="my_script.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
+ 
