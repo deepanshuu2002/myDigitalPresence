@@ -18,6 +18,14 @@ The following technologies are used in my portfolio:
 - **CSS:** 
 - **JavaScript:** 
 
+
+## Tools Used
+-[Fontawesome](https://fontawesome.com/start) and [Flaticon](https://www.flaticon.com/icons) are used for Skills icons
+-[Icons8](https://icons8.com/) is used for animated icons
+-[Formspree](https://formspree.io/) is used for contacts submission
+
+
+
 ## Features
 
 - **Home Page:** Introduction and brief overview of who I am and what I do.
