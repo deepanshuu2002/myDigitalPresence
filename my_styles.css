@@ -370,8 +370,13 @@ footer {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    height: 28.5rem;
+    width: 28rem;
+    margin-top: 4.5rem;
+  }
+  .myImage {
+    margin-bottom: 134px;
+    
   }
 
   .bio {
@@ -382,6 +387,11 @@ footer {
   .more-about {
     margin-top: 2rem;
     padding: 1rem 3.5rem;
+    
+  }
+  .aboutMePara{
+    margin-left: 0rem;
+    margin-right: 0rem  ;
   }
 
   .more-about h2 {
@@ -412,8 +422,12 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
+    margin-top: 4.5rem; 
+    height: 23.5rem;
     width: 23rem;
+  }
+  .myImage {
+    margin-bottom: 134px;
   }
 
   .bio {
