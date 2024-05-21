@@ -33,7 +33,7 @@ To view the portfolio website locally:
     ```bash
     git clone https://github.com/deepanshuu2002/myDigitalPresence.git
     ```
-`
+
 2. Navigate to the project directory:
     ```bash
     cd myDigitalPresence
