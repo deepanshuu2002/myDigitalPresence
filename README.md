@@ -20,9 +20,9 @@ The following technologies are used in my portfolio:
 
 
 ## Tools Used
--[Fontawesome](https://fontawesome.com/start) and [Flaticon](https://www.flaticon.com/icons) are used for Skills icons
--[Icons8](https://icons8.com/) is used for animated icons
--[Formspree](https://formspree.io/) is used for contacts submission
+-**[Fontawesome](https://fontawesome.com/start) and [Flaticon](https://www.flaticon.com/icons)** are used for Skills icons
+-**[Icons8](https://icons8.com/)** is used for animated icons
+-**[Formspree](https://formspree.io/)** is used for contacts submission
 
 
 
